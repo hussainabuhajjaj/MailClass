@@ -1,0 +1,25 @@
+{
+    "name": "roman/mail-class",
+    "description": "Mail class to be used in any project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussain-Abuhajjaj"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "mailgun/mailgun-php": "^3.5",
+        "nyholm/psr7": "^1.8",
+        "vlucas/phpdotenv": "^5.5",
+        "php-http/guzzle7-adapter": "^1.0"
+
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
